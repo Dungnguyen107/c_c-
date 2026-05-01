@@ -21,7 +21,7 @@ int main() {
     printf("Enter your full name: ");
     fgets(name, sizeof(name), stdin);
     name[strlen(name) - 1] = '\0'; //replacing the final character of the string with its index by \0
-
+    // in the future, you should check if the final input is \n or not before replacing
     printf("%s\n", name);
     printf("%d\n", age);
     printf("%.2f\n", gpa);

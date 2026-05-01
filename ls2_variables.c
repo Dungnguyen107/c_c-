@@ -48,7 +48,7 @@ int main() {
 
     printf("The price of this item is %f$ and the temparature today is %f celcius degree\n",price, temparature);
 
-    // %lf is the abbreviation of "long integer"
+    // %lf is used for type variables double
     // default behavior of C will display 6 digits after dot if you use %lf
     printf("The value of PI constant is %.15lf\n",pi);
     printf("The value of e constant is %.4lf\n", e);

@@ -25,7 +25,7 @@ int main() {
     printf("%d", x);
 
     // when using divde operator /, the dividing number would be less risk when being float
-    // the result of int /int cannot be a int, so the program cannot store the value
+    // the result of int /int would be a int, but it is not include the digits after dot, so the program cannot store the value
 
     return 0;
 }
